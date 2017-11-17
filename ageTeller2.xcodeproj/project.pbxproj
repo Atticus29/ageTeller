@@ -1,0 +1,557 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AC41D0971FBFA84400A2CC74 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC41D0961FBFA84400A2CC74 /* AppDelegate.swift */; };
+		AC41D0991FBFA84400A2CC74 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC41D0981FBFA84400A2CC74 /* ViewController.swift */; };
+		AC41D09C1FBFA84400A2CC74 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC41D09A1FBFA84400A2CC74 /* Main.storyboard */; };
+		AC41D09E1FBFA84400A2CC74 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC41D09D1FBFA84400A2CC74 /* Assets.xcassets */; };
+		AC41D0A11FBFA84400A2CC74 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC41D09F1FBFA84400A2CC74 /* LaunchScreen.storyboard */; };
+		AC41D0AC1FBFA84400A2CC74 /* ageTeller2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC41D0AB1FBFA84400A2CC74 /* ageTeller2Tests.swift */; };
+		AC41D0B71FBFA84400A2CC74 /* ageTeller2UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC41D0B61FBFA84400A2CC74 /* ageTeller2UITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AC41D0A81FBFA84400A2CC74 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AC41D08B1FBFA84400A2CC74 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AC41D0921FBFA84400A2CC74;
+			remoteInfo = ageTeller2;
+		};
+		AC41D0B31FBFA84400A2CC74 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AC41D08B1FBFA84400A2CC74 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AC41D0921FBFA84400A2CC74;
+			remoteInfo = ageTeller2;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AC41D0931FBFA84400A2CC74 /* ageTeller2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ageTeller2.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC41D0961FBFA84400A2CC74 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AC41D0981FBFA84400A2CC74 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AC41D09B1FBFA84400A2CC74 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AC41D09D1FBFA84400A2CC74 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AC41D0A01FBFA84400A2CC74 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AC41D0A21FBFA84400A2CC74 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AC41D0A71FBFA84400A2CC74 /* ageTeller2Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ageTeller2Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC41D0AB1FBFA84400A2CC74 /* ageTeller2Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ageTeller2Tests.swift; sourceTree = "<group>"; };
+		AC41D0AD1FBFA84400A2CC74 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AC41D0B21FBFA84400A2CC74 /* ageTeller2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ageTeller2UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC41D0B61FBFA84400A2CC74 /* ageTeller2UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ageTeller2UITests.swift; sourceTree = "<group>"; };
+		AC41D0B81FBFA84400A2CC74 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AC41D0901FBFA84400A2CC74 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC41D0A41FBFA84400A2CC74 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC41D0AF1FBFA84400A2CC74 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AC41D08A1FBFA84400A2CC74 = {
+			isa = PBXGroup;
+			children = (
+				AC41D0951FBFA84400A2CC74 /* ageTeller2 */,
+				AC41D0AA1FBFA84400A2CC74 /* ageTeller2Tests */,
+				AC41D0B51FBFA84400A2CC74 /* ageTeller2UITests */,
+				AC41D0941FBFA84400A2CC74 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AC41D0941FBFA84400A2CC74 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AC41D0931FBFA84400A2CC74 /* ageTeller2.app */,
+				AC41D0A71FBFA84400A2CC74 /* ageTeller2Tests.xctest */,
+				AC41D0B21FBFA84400A2CC74 /* ageTeller2UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AC41D0951FBFA84400A2CC74 /* ageTeller2 */ = {
+			isa = PBXGroup;
+			children = (
+				AC41D0961FBFA84400A2CC74 /* AppDelegate.swift */,
+				AC41D0981FBFA84400A2CC74 /* ViewController.swift */,
+				AC41D09A1FBFA84400A2CC74 /* Main.storyboard */,
+				AC41D09D1FBFA84400A2CC74 /* Assets.xcassets */,
+				AC41D09F1FBFA84400A2CC74 /* LaunchScreen.storyboard */,
+				AC41D0A21FBFA84400A2CC74 /* Info.plist */,
+			);
+			path = ageTeller2;
+			sourceTree = "<group>";
+		};
+		AC41D0AA1FBFA84400A2CC74 /* ageTeller2Tests */ = {
+			isa = PBXGroup;
+			children = (
+				AC41D0AB1FBFA84400A2CC74 /* ageTeller2Tests.swift */,
+				AC41D0AD1FBFA84400A2CC74 /* Info.plist */,
+			);
+			path = ageTeller2Tests;
+			sourceTree = "<group>";
+		};
+		AC41D0B51FBFA84400A2CC74 /* ageTeller2UITests */ = {
+			isa = PBXGroup;
+			children = (
+				AC41D0B61FBFA84400A2CC74 /* ageTeller2UITests.swift */,
+				AC41D0B81FBFA84400A2CC74 /* Info.plist */,
+			);
+			path = ageTeller2UITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AC41D0921FBFA84400A2CC74 /* ageTeller2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AC41D0BB1FBFA84400A2CC74 /* Build configuration list for PBXNativeTarget "ageTeller2" */;
+			buildPhases = (
+				AC41D08F1FBFA84400A2CC74 /* Sources */,
+				AC41D0901FBFA84400A2CC74 /* Frameworks */,
+				AC41D0911FBFA84400A2CC74 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ageTeller2;
+			productName = ageTeller2;
+			productReference = AC41D0931FBFA84400A2CC74 /* ageTeller2.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AC41D0A61FBFA84400A2CC74 /* ageTeller2Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AC41D0BE1FBFA84400A2CC74 /* Build configuration list for PBXNativeTarget "ageTeller2Tests" */;
+			buildPhases = (
+				AC41D0A31FBFA84400A2CC74 /* Sources */,
+				AC41D0A41FBFA84400A2CC74 /* Frameworks */,
+				AC41D0A51FBFA84400A2CC74 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AC41D0A91FBFA84400A2CC74 /* PBXTargetDependency */,
+			);
+			name = ageTeller2Tests;
+			productName = ageTeller2Tests;
+			productReference = AC41D0A71FBFA84400A2CC74 /* ageTeller2Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AC41D0B11FBFA84400A2CC74 /* ageTeller2UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AC41D0C11FBFA84400A2CC74 /* Build configuration list for PBXNativeTarget "ageTeller2UITests" */;
+			buildPhases = (
+				AC41D0AE1FBFA84400A2CC74 /* Sources */,
+				AC41D0AF1FBFA84400A2CC74 /* Frameworks */,
+				AC41D0B01FBFA84400A2CC74 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AC41D0B41FBFA84400A2CC74 /* PBXTargetDependency */,
+			);
+			name = ageTeller2UITests;
+			productName = ageTeller2UITests;
+			productReference = AC41D0B21FBFA84400A2CC74 /* ageTeller2UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AC41D08B1FBFA84400A2CC74 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0910;
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = "Fisher Dynamic";
+				TargetAttributes = {
+					AC41D0921FBFA84400A2CC74 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+					};
+					AC41D0A61FBFA84400A2CC74 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = AC41D0921FBFA84400A2CC74;
+					};
+					AC41D0B11FBFA84400A2CC74 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = AC41D0921FBFA84400A2CC74;
+					};
+				};
+			};
+			buildConfigurationList = AC41D08E1FBFA84400A2CC74 /* Build configuration list for PBXProject "ageTeller2" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AC41D08A1FBFA84400A2CC74;
+			productRefGroup = AC41D0941FBFA84400A2CC74 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AC41D0921FBFA84400A2CC74 /* ageTeller2 */,
+				AC41D0A61FBFA84400A2CC74 /* ageTeller2Tests */,
+				AC41D0B11FBFA84400A2CC74 /* ageTeller2UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AC41D0911FBFA84400A2CC74 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC41D0A11FBFA84400A2CC74 /* LaunchScreen.storyboard in Resources */,
+				AC41D09E1FBFA84400A2CC74 /* Assets.xcassets in Resources */,
+				AC41D09C1FBFA84400A2CC74 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC41D0A51FBFA84400A2CC74 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC41D0B01FBFA84400A2CC74 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AC41D08F1FBFA84400A2CC74 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC41D0991FBFA84400A2CC74 /* ViewController.swift in Sources */,
+				AC41D0971FBFA84400A2CC74 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC41D0A31FBFA84400A2CC74 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC41D0AC1FBFA84400A2CC74 /* ageTeller2Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC41D0AE1FBFA84400A2CC74 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC41D0B71FBFA84400A2CC74 /* ageTeller2UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AC41D0A91FBFA84400A2CC74 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AC41D0921FBFA84400A2CC74 /* ageTeller2 */;
+			targetProxy = AC41D0A81FBFA84400A2CC74 /* PBXContainerItemProxy */;
+		};
+		AC41D0B41FBFA84400A2CC74 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AC41D0921FBFA84400A2CC74 /* ageTeller2 */;
+			targetProxy = AC41D0B31FBFA84400A2CC74 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AC41D09A1FBFA84400A2CC74 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AC41D09B1FBFA84400A2CC74 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AC41D09F1FBFA84400A2CC74 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AC41D0A01FBFA84400A2CC74 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AC41D0B91FBFA84400A2CC74 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AC41D0BA1FBFA84400A2CC74 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AC41D0BC1FBFA84400A2CC74 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ageTeller2/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.fisherDynamic.ageTeller2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AC41D0BD1FBFA84400A2CC74 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ageTeller2/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.fisherDynamic.ageTeller2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		AC41D0BF1FBFA84400A2CC74 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ageTeller2Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.fisherDynamic.ageTeller2Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ageTeller2.app/ageTeller2";
+			};
+			name = Debug;
+		};
+		AC41D0C01FBFA84400A2CC74 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ageTeller2Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.fisherDynamic.ageTeller2Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ageTeller2.app/ageTeller2";
+			};
+			name = Release;
+		};
+		AC41D0C21FBFA84400A2CC74 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ageTeller2UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.fisherDynamic.ageTeller2UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ageTeller2;
+			};
+			name = Debug;
+		};
+		AC41D0C31FBFA84400A2CC74 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ageTeller2UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.fisherDynamic.ageTeller2UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ageTeller2;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AC41D08E1FBFA84400A2CC74 /* Build configuration list for PBXProject "ageTeller2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC41D0B91FBFA84400A2CC74 /* Debug */,
+				AC41D0BA1FBFA84400A2CC74 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AC41D0BB1FBFA84400A2CC74 /* Build configuration list for PBXNativeTarget "ageTeller2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC41D0BC1FBFA84400A2CC74 /* Debug */,
+				AC41D0BD1FBFA84400A2CC74 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AC41D0BE1FBFA84400A2CC74 /* Build configuration list for PBXNativeTarget "ageTeller2Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC41D0BF1FBFA84400A2CC74 /* Debug */,
+				AC41D0C01FBFA84400A2CC74 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AC41D0C11FBFA84400A2CC74 /* Build configuration list for PBXNativeTarget "ageTeller2UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC41D0C21FBFA84400A2CC74 /* Debug */,
+				AC41D0C31FBFA84400A2CC74 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AC41D08B1FBFA84400A2CC74 /* Project object */;
+}
