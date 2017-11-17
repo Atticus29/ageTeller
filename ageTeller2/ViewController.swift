@@ -10,6 +10,18 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var ageInput: UITextField!
+    
+    @IBOutlet weak var outputLabel: UILabel!
+    
+    
+    @IBAction func button(_ sender: Any) {
+        if let age = ageInput.text{
+            outputLabel.text = age
+        }
+        
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
